@@ -1,6 +1,6 @@
-#include "idt.h"
-#include "ports.h"
-#include "isr.h"  // Interrupt Service Routine handlers (to be created)
+#include "../../include/idt.h"
+#include "../../include/ports.h"
+#include "../../include/isr.h"  // Interrupt Service Routine handlers (to be created)
 
 // Define the IDT and IDT pointer
 struct idt_entry idt[256];
@@ -51,5 +51,4 @@ void initPIC() {
     outb(0xA1, 0x01);  // Enable 8086 mode for slave PIC
 
     outb(0x21, 0x00);  // Enable all interrupts on master PIC
-    outb(0xA1, 0x00);  // Enable all interrupts on slave PIC
-}
+    

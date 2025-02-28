@@ -1,7 +1,7 @@
-#include "isr.h"
-#include "vga.h"
-#include "ports.h"
-#include "kb.h"
+#include "../../include/isr.h"
+#include "../../include/vga.h"
+#include "../../include/ports.h"
+#include "../../include/kb.h"
 
 // Default ISR handler
 void isr_default() {
@@ -20,3 +20,5 @@ void irq1_handler() {
     outb(0xA0, 0x20);  // Send EOI to PIC2 (if needed)
 }
 
+// Other handlers for interrupts (e.g., divide by zero, invalid op, etc.)
+// You can add similar functions as needed for each interrupt vector.
