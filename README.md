@@ -1,53 +1,46 @@
-![Image](https://github.com/user-attachments/assets/ceaf6f84-0ba8-4df5-b7ea-014fb0951aaf)
+![Bunix Logo](https://github.com/user-attachments/assets/ceaf6f84-0ba8-4df5-b7ea-014fb0951aaf)
 
-Bunix all rights reserved.
---------------------------
+# Bunix
 
-Bunix is a Unix-Like Operating System Developed entirely from scratch by one person.
-It focuses on performance stability and security.
-Updates may slow down sometimes due to school and my personal life.
+**Bunix** is a Unix-like operating system developed entirely from scratch by a single developer.  
+It focuses on **performance**, **stability**, and **security**.
 
-Processor supported currently is only i386 by now but x86_64 will be planned on to be added as well.
-Only supports the BIOS currently UEFI will be planned on to be added as well.
-Also works using UEFI CSM!
+> 🚧 Development may slow down occasionally due to school and personal life commitments.
 
-# Interested in Contributing?
-We welcome contributions following these guidelines:
+---
 
-Before You Start
+## 🖥️ System Requirements
 
-Open an issue to discuss major changes
+- **Architecture Support**: Currently supports **i386** (32-bit).  
+  Support for **x86_64** (64-bit) is planned for future releases.
+  
+- **Boot Method**: BIOS only (for now).  
+  **UEFI** support is also planned, though it currently works with **UEFI CSM (Compatibility Support Module)**.
 
-Check the project roadmap for priorities
+---
 
-Development Process
+## 🤝 Contributing
 
-# Create feature branch
-git checkout -b feature/your-feature
+Interested in contributing to Bunix? Awesome!  
+Here’s what we expect from contributors:
 
-# Commit changes
-git commit -m "feat: add keyboard driver"
+1. Write code (obviously 😄).
+2. **Test your changes** and provide a screenshot or demo showing that it works.
+3. Clearly explain what your contribution does (e.g., new syscalls, keyboard drivers, improvements).
+4. Unverified or vague contributions will not be accepted.
 
-# Push and open PR
-git push origin feature/your-feature
-Pull Request Requirements
+---
 
-Clearly describe purpose and changes
+## 🛠️ Building from Source
 
-Include test results/screenshots
+Make sure you have the required dependencies installed:
 
-Document any breaking changes
-
-Follow existing code style
-
-## Building from scratch
-1. Install the required dependencies: `sudo apt-get update && sudo apt-get install qemu-system nasm mtool gcc-multilib`
+1. `sudo apt-get update && sudo apt-get install qemu-system nasm mtools gcc-multilib`
 2. Build: `make`
 3. After building a `bunix.iso` file will be provided in the project's root directory
 
 ## Build and Run
-1. Install the required dependencies: `sudo apt-get update && sudo apt-get install qemu-system nasm mtool gcc-multilib`
-2. Execute: `make run`
+1. Execute: `make run`
 
 # Future of Bunix
 This is definitely Fun to Work on and Will improve over time!
