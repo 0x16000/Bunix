@@ -12,12 +12,33 @@ Only supports the BIOS currently UEFI will be planned on to be added as well.
 Also works using UEFI CSM!
 
 # Interested in Contributing?
-In order to contribute to this Project you must:
-Write Code (of course).
-Test it and provide a screenshot that it's working.
-(We will not accept contributions that haven't been tested).
-Tell us specifically what that contribution is for.
-Example for syscalls, keyboard drivers, etc.
+We welcome contributions following these guidelines:
+
+Before You Start
+
+Open an issue to discuss major changes
+
+Check the project roadmap for priorities
+
+Development Process
+
+# Create feature branch
+git checkout -b feature/your-feature
+
+# Commit changes
+git commit -m "feat: add keyboard driver"
+
+# Push and open PR
+git push origin feature/your-feature
+Pull Request Requirements
+
+Clearly describe purpose and changes
+
+Include test results/screenshots
+
+Document any breaking changes
+
+Follow existing code style
 
 ## Building from scratch
 1. Install the required dependencies: `sudo apt-get update && sudo apt-get install qemu-system nasm mtool gcc-multilib`
