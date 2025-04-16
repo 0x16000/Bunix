@@ -70,6 +70,7 @@ Command commands[] = {
     {"factor",     factor_command,    "Factor numbers"},
     {"rand",       rand_command,      "Generate a random number"},
     {"tty",        tty_command,       "Show terminal device name"},
+    {"watch",      watch_command,     "Repeat a command every ... seconds"},
     {NULL, NULL, NULL} // End marker
 };
 
