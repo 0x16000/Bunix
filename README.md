@@ -35,7 +35,7 @@ Here’s what we expect from contributors:
 
 Make sure you have the required dependencies installed:
 
-1. `sudo apt-get update && sudo apt-get install qemu-system nasm mtools gcc-multilib`
+1. `sudo apt-get update && sudo apt-get install qemu-system nasm mtools gcc-multilib xorriso`
 2. Build: `make`
 3. After building a `bunix.iso` file will be provided in the project's root directory
 
