@@ -52,7 +52,7 @@ static void format_memory(size_t size) {
 }
 
 void fetch_command(void) {
-    vga_initialize();
+    vga_clear();
     vga_set_color(VGA_COLOR_LIGHT_GREY, VGA_COLOR_BLACK);
     
     // Tiny ASCII art (customize this)
