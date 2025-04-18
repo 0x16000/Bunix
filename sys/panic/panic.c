@@ -122,7 +122,7 @@ __attribute__((noreturn)) void panic_impl(const char *file, int line, const char
     // Final message
     vga_set_color(VGA_COLOR_WHITE, VGA_COLOR_BLUE);
     vga_puts("\n\nSystem Halted! You must restart your computer.\n");
-    vga_puts("Please report this issue if it persits!");
+    vga_puts("Please report this issue if it persists!");
     
     // Restore original color scheme
     vga_set_color(VGA_COLOR_WHITE, VGA_COLOR_BLUE);
