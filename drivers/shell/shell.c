@@ -46,7 +46,7 @@ void print_shell_prompt(void) {
 
 // Bash-style command list with proper alignment
 Command commands[] = {
-    {"help",       help_command,      "Display information about builtin commands"},
+    {"help",       help_command,      "Display information about built-in commands"},
     {"clear",      clear_command,     "Clear the terminal screen"},
     {"echo",       echo_command,      "Display a line of text"},
     {"cpuinfo",    cpuinfo_command,   "Display CPU information"},
