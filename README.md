@@ -3,7 +3,7 @@
 # Bunix
 
 **Bunix** is a Unix-like operating system developed entirely from scratch by a single developer.  
-It focuses on **performance**, **stability**, and **security**.
+Focusing on **performance**, **stability**, and **security**, Bunix is an ambitious project to build a modern OS from the ground up.
 
 > 🚧 Development may slow down occasionally due to school and personal life commitments.
 
